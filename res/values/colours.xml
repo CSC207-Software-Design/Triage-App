@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- One way to define custom colors -->
+    
+    <color name="aero_blue">#7CB9E8</color>
+    <color name="egg_shell">#F0EAD6</color>
+    <color name="black">#000000</color>
+     <color name="white">#ffff</color>
+    <!--<color name="holo_blue_light">#38C0F4-->
+    <color name="ics_blue_bright">#38C0F4</color>
+    <color name="ics_blue_dark">#0099CC</color>
+    <color name="ics_blue_light">#33B5E5</color>
+    <color name="ics_green_dark">#669900</color>
+    <color name="ics_green_light">#99CC00</color>
+    <color name="ics_orange_dark">#FF8800</color>
+    <color name="ics_orange_light">#FFBB33</color>
+    <color name="ics_purple_dark">#9933CC</color>
+    <color name="ics_purple_light">#AA66CC</color>
+    <color name="ics_red_dark">#CC0000</color>
+    <color name="ics_red_light">#FF4444</color>
+    
+    <color name="ics_swatch_blue01">#E2F4FB</color>
+    <color name="ics_swatch_blue02">#C5EAF8</color>
+    <color name="ics_swatch_blue03">#A8DFF4</color>
+    <color name="ics_swatch_blue04">#8AD5F0</color>
+    <color name="ics_swatch_blue05">#6DCAEC</color>
+    <color name="ics_swatch_blue06">#50C0E9</color>
+    <color name="ics_swatch_blue07">#33B5E5</color>
+    <color name="ics_swatch_blue08">#2CB1E1</color>
+    <color name="ics_swatch_blue09">#24ADDE</color>
+    <color name="ics_swatch_blue10">#1DA9DA</color>
+    <color name="ics_swatch_blue11">#16A5D7</color>
+    <color name="ics_swatch_blue12">#0FA1D3</color>
+    <color name="ics_swatch_blue13">#079DD0</color>
+    <color name="ics_swatch_blue14">#0099CC</color>
+    
+    <color name="red01">#CC0000</color>
+    <color name="red02">#D30A0A</color>
+    <color name="red03">#DB1313</color>
+    <color name="red04">#E21D1D</color>
+    <color name="red05">#E92727</color>
+    <color name="red06">#F03131</color>
+    <color name="red07">#F83A3A</color>
+    <color name="red08">#FF4444</color>
+    <color name="red09">#FF5F5F</color>
+    <color name="red10">#FF7979</color>
+    <color name="red11">#FF9494</color>
+    <color name="red12">#FFAFAF</color>
+    <color name="red13">#FFCACA</color>
+    <color name="red14">#FFE4E4</color>
+    
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:background="@drawable/item_selector" 
+    android:padding="10dp">
+    <!-- android:background="?android:attr/selectableItemBackground" -->
+         
+
+    <!-- android:layout_toRightOf="@+id/list_rightrow1" -->
+        <!-- android:textAppearance="?android:attr/textAppearanceListItem" 
+        android:textSize="12sp"/>
+         android:background="@color/ics_swatch_blue02"
+         android:maxWidth="1.0sp"-->
+
+	
+	<TextView
+        android:id="@+id/list_leftrow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginRight="4dp"
+        android:singleLine="true"
+        android:ellipsize="end" />
+         
+    <TextView
+        android:id="@+id/list_leftrow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_leftrow1"
+        android:textSize="12sp"
+        android:layout_marginRight="4dp"
+        android:singleLine="true"
+        android:ellipsize="end" />
+    
+    <TextView
+        android:id="@+id/list_leftrow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_leftrow2"
+		android:textSize="12sp"
+		android:layout_marginRight="4dp"
+        android:ellipsize="end"
+        android:singleLine="true" />
+   
+	<TextView
+        android:id="@+id/list_leftrow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_leftrow3"
+		android:textSize="12sp"
+		android:layout_marginRight="4dp"
+        android:ellipsize="end"
+        android:singleLine="true" />
+        
+    <TextView
+        android:id="@+id/list_rightrow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/list_leftrow1"
+        android:layout_alignParentRight="true" 
+        android:textSize="15sp"/>
+        <!--android:layout_alignParentTop="true"-->
+        
+    <TextView
+        android:id="@+id/list_rightrow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_rightrow1"
+        android:layout_alignParentRight="true" 
+        android:textSize="15sp"/>
+        <!--android:layout_alignStart="@+id/list_row1"-->
+
+</RelativeLayout>

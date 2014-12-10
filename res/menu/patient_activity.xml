@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+        android:id="@+id/menu_sign_in"
+        android:icon="@drawable/action_accept"
+        android:showAsAction="always"
+        android:title="@string/menu_sign_in"/>
+	<item
+        android:id="@+id/menu_sign_out"
+        android:icon="@drawable/content_discard_dark"
+        android:showAsAction="always"
+        android:title="@string/menu_sign_out"/> 
+    <item
+        android:id="@+id/menu_send_to_doctor"
+        android:icon="@drawable/send_to_doctor"
+        android:showAsAction="always"
+        android:title="@string/menu_send_to_doctor"/> 
+    <item
+        android:id="@+id/menu_medical_record"
+        android:icon="@drawable/medical_record"
+        android:showAsAction="always"
+        android:title="@string/menu_get_medical_record"/>
+    <item
+        android:id="@+id/menu_add_vitals"
+        android:icon="@drawable/content_new_dark"
+        android:showAsAction="always"
+        android:title="@string/menu_add_vitals"/>
+    <item
+        android:id="@+id/menu_add_prescription"
+        android:icon="@drawable/add_prescription"
+        android:showAsAction="always"
+        android:title="@string/menu_add_prescription"/>
+</menu>
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AddPatientActivity" >
+
+     <TextView
+        android:id="@+id/patient_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+     <triageapp.activities.EditTextErrorFixed
+        android:id="@+id/patientNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/patient_name"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/name" 
+        android:inputType="textPersonName"/>
+    
+    <TextView
+        android:id="@+id/patient_dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/patientNameEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="@string/date_of_birth" 
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    
+    <Button
+        android:id="@+id/startDateButton"
+        style="?android:attr/spinnerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/patientNameEditText"
+        android:layout_below="@+id/patient_dob"
+        android:gravity="center_vertical|center_horizontal" />
+    
+    <TextView
+        android:id="@+id/patient_health_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+		android:layout_below="@+id/startDateButton"
+        android:text="@string/health_card_number"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <triageapp.activities.EditTextErrorFixed
+        android:id="@+id/healthCardEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:layout_alignLeft="@+id/patientNameEditText"
+        android:layout_below="@+id/patient_health_card"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/health_card_number"
+        android:inputType="number" />
+  
+ 	 <Button
+        android:id="@+id/add_patient_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:onClick="addPatient"
+        android:text="@string/sign_in" />
+
+</RelativeLayout>

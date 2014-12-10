@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Triage+</string>
+    <string name="no_patients">No current patients to display</string>
+    <string name="menu_sign_in">Sign In</string>
+    <string name="menu_sign_out">Sign Out</string>
+    <string name="menu_search_patient">Search Patient</string>
+    <string name="search_hint">Health card number</string>
+    <string name="patient_search_dialog">Search an archived patient</string>
+    <string name="medical_record_search_dialog">Look up patient\'s medical record</string>
+    <string name="menu_ok">OK</string>
+    <string name="menu_cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="patient_activity_name">Patient</string>
+    <string name="menu_get_medical_record">View Medical Record</string>
+    <string name="listview_no_vitals">No current vital signs to display</string>
+    <string name="menu_add_vitals">Add Vitals</string>
+    <string name="title_add_vitals">Record vital signs</string>
+    <string name="blood_pressure">Blood Pressure</string>
+    <string name="diastolic">Diastolic</string>
+    <string name="systolic">Systolic</string>
+    <string name="temperature">Temperature</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="add_patient_vitals">Add Patients Vital Signs</string>
+    <string name="title_of_activity_main">DoctorNurse</string>
+    <string name="title_of_activity_add_vitals">AddVitalSignsActivity</string>
+    <string name="title_of_activity_add_prescription">AddPrescriptionActivity</string>
+    <string name="title_activity_medical_record">Medical Record</string>
+    <string name="title_patient_activity">Patient</string> 
+    <string name="title_of_activity_add_patient">New Patient</string>
+    <string name="title_of_activity_about">Help and Support</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="usernameHint"> Enter your username</string>
+    <string name="passwordHint"> Enter your password</string>
+    <string name="login"> Login</string>
+    <string name="incorrect_login">Please enter a correct username and password.</string>
+    <string name="menu_send_to_doctor">Send to Doctor</string>
+    <string name="menu_add_prescription">Add Prescription</string>
+    <string name="listview_no_prescriptions">No current prescriptions to display</string>
+    <string name="menu_add_patient">Add Patient</string>
+    <string name="name">Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="health_card_number">Health Card Number</string>
+    <string name="sign_in">Sign in Patient</string>
+    
+    <string name="invalid_input">Contains errors, please review.</string>
+        
+    <string name="prescription">Prescription</string>
+    <string name="prescription_name">Prescription Name</string>
+    <string name="prescription_instructions">Prescription instructions</string>
+    <string name="add_new_prescription">Add New Prescription</string>
+    
+    <string name="nurse">Nurse</string>
+    <string name="doctor">Doctor</string>
+    <string name="icon_info">About</string>
+    
+<string name="about">
+<![CDATA[
+<h1>Login Screen</h1>
+Login to the app by entering a username and password. Based on the user role you will be redirected to the <i>Nurse Screen</i> or to the <i>Doctor Screen</i>.
+
+<h1>Nurse Screen</h1>
+<b>Urgency Tab</b>: displays a list of patients sorted by urgency in descending order. <br/>
+<b>Sent to Doctor Tab</b>: displays a list of patients that have been sent to the doctor. <br/>
+Click on a patient in the list to open the <i>Patient Screen</i>.<br/>
+Click <img src ="ic_action_search_light.png"> to look up existing patients based on their health card number. <br/>
+Click <img src ="ic_action_content_add_light.png"> to add and sign in a new patient in the ER.<br/> 
+Click <img src ="ic_action_file_folder_shared_light.png"> to look up a patient\'s medical record by their health card.
+
+<h1>Doctor Screen </h1>
+<b>Sent to Doctor Tab</b>: displays a list of patients that have been sent to the doctor. <br/>
+Click on a patient in the list to open the <i>Patient Screen</i>.<br/>
+Click <img src ="ic_action_search_light.png"> to look up existing patients based on their health card number.<br/>
+Click <img src ="ic_action_file_folder_shared_light.png"> to look up a patient\'s medical record by their health card.<br/>
+
+<h1>Patient Screen</h1>
+<b>Info Tab</b>: Displays patient information including ERVisit details if the patient is signed in.<br/>
+Click <img src ="ic_action_file_folder_shared_light.png"> to look up a patient\'s medical record by their health card.<br/>
+<b>Vitals Tab</b>: Visible when the patient is signed in. Displays a list of vitals taken in descending order.<br/>
+Click on <img src ="ic_action_content_discard_light.png"> to sign the patient out of the ER. (Visible only for patients signed in the ER).
+
+<h4>Features Unique to Nurse:</h4>
+Click on <img src ="ic_action_social_person_add_light.png"> to sign the patient in the ER (Visible only for patients not signed in the ER).<br/>
+Click <img src ="ic_action_send_to_doctor_light.png"> to send the patient to the doctor (Visible only for patients signed in the ER).<br/>
+Click <img src ="ic_action_content_new_light.png"> to add patient vitals.
+
+<h4>Features Unique to Doctor:</h4>
+<b>Prescriptions Tab</b>: Visible when the patient is signed in. Displays a list of prescriptions.<br/>
+Click on <img src ="ic_action_add_prescription_light.png"> to add a prescription.<br/> <br/>
+
+<i>Hint</i>: Use the back button to return to the <i>Nurse/Doctor Screen</i>.
+]]>
+</string>
+    
+    
+
+</resources>

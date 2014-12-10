@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="triageapp.activities"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/triage"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="triageapp.activities.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="triageapp.activities.AboutActivity"
+            android:label="@string/title_of_activity_about" >
+        </activity>
+        <activity
+            android:name="triageapp.activities.MainActivity"
+            android:label="@string/title_of_activity_main" >
+        </activity>
+        <activity
+            android:name="triageapp.activities.AddPatientActivity"
+            android:label="@string/title_of_activity_add_patient" >
+        </activity>
+        <activity
+            android:name="triageapp.activities.PatientActivity"
+            android:label="@string/title_patient_activity" >
+        </activity>
+        <activity
+            android:name="triageapp.activities.AddVitalSignsActivity"
+            android:label="@string/title_of_activity_add_vitals" >
+        </activity>
+        <activity
+            android:name="triageapp.activities.AddPrescriptionActivity"
+            android:label="@string/title_of_activity_add_prescription" >
+        </activity>
+        <activity
+            android:name="triageapp.activities.ShowMedicalRecord"
+            android:label="@string/title_activity_medical_record" >
+        </activity>
+        
+    </application>
+
+</manifest>
