@@ -47,7 +47,7 @@ For a patient signed in the ER:
 --------------------------------------------------------------
 Group Members:
 --------------------------------------------------------------
-Katie Datsenko
-Huy (Kevin) To
-Sho Hao (Lenox) Ho
-Wei Li
+- Katie Datsenko
+- Huy (Kevin) To
+- Sho Hao (Lenox) Ho
+- Wei Li
