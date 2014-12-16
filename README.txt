@@ -50,4 +50,4 @@ For a patient signed in the ER:
 1.3.2 Features Unique to Doctor
 --------------------------------------------------------------
 - Additional "Prescriptions" tab displays a list of the patient's Prescriptions.
-- The medicine bottle icon redirects the user to the "Prescription" screen where the user can add a prescription.
+- The medicine bottle icon redirects the user to the "Prescriptions" screen where the user can add a prescription.
