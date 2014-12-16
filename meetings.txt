@@ -1,0 +1,194 @@
+ *******************************************************
+11.12.2014: Planning Meeting: 90 minutes 
+*******************************************************
+Internal deadline set: Saturday, November 15th, 19:00 PM
+
+Project Status Update:
+	- Drafted and reviewed a new CRC model
+	- GUI design:
+           		* Identified the user scenarios 
+           		* Identifyed the information flow 
+           		* draw screen mockups
+Tasks:
+
+Huy (Kevin) To:
+      Implement:
+	- User.java 
+	- Nurse.java
+	- Physician.java
+
+Sho Hao (Lenox) Ho:
+      Modify:
+	- ERAdmin.java
+      Implement:
+	- UserManager.java
+
+Wei Li:
+      Implement:
+	- Prescription.java
+
+Ekaterina (Katie) Datsenko:
+	- Finalize UML and CRC
+	- Modify ERVisit.java
+ 	- Implement all activities based on new GUI design       
+ 
+
+*******************************************************
+11.14.2014: Status Meeting: 20 minutes 
+*******************************************************
+Project Status Update:
+	- CRC model updated
+	- UML updated
+	- GUI design:
+           		* All required activities mocked
+Task progress:
+
+Huy (Kevin) To:	
+      Started implementation:
+	- User.java 
+	- Nurse.java
+	- Physician.java
+
+Sho Hao (Lenox) Ho:
+      Started implementation:
+	- UserManager.java
+	- ERAdmin.java
+
+Wei Li:
+      Implemented:
+	- Prescription.java
+
+Ekaterina (Katie) Datsenko:
+      Implemented:
+	- ERVisit.java
+ 	- All activities based on new GUI design, ready for testing   
+
+*******************************************************
+11.15.2014: Status Meeting: 10 minutes 
+******************************************************* 
+Project Status Update:
+	- CRC model updated
+	- UML updated
+	- GUI design:
+           		* All required activities implemented and documented 
+			(mock code in place of data hydration methods)
+           		* Screen input validation implemented
+           		* Waiting for backend hydration implementation
+	- CDF is down, Repository cannot be accessed. Have to send updated files back and forth.
+
+Task progress:
+
+Huy (Kevin) To:	
+      Continued implementation:
+	- User.java 
+	- Nurse.java
+	- Physician.java
+
+Sho Hao (Lenox) Ho:
+      Implemented:
+	- UserManager.java
+	- ERAdmin.java
+
+Ekaterina (Katie) Datsenko:
+      Implemented:
+	- Updated CRC Model with Activity Classes
+	- GUI design, specifically in Activities for input, adding formatting of input and validation
+	- Wrote GUI code for graceful handling of errors
+
+*******************************************************
+11.17.2014: Status Meeting: 10 minutes 
+******************************************************* 
+
+Project Status Update:
+	- preliminary testing done
+	- few bug fixes completed
+	- figuring out how to properly save data
+	- planning out database implementation
+
+Task progress:
+
+Huy (Kevin) To:	
+	- adjust README to match current build
+	- Find sent to doctor and prescription icons
+	- comment User, Nurse, Physician
+	- test and report bugs
+
+Sho Hao (Lenox) Ho:
+	- finalize CRC document
+	- test and report bugs
+	- test on emulator and push files using DDMS
+
+Wei Li:
+	- finalize CRC document
+	- test and report bugs
+
+Ekaterina (Katie) Datsenko:
+     Implemented:
+	- Modfied Activites with hydration from real classes instead of mock methods
+	- Modified Input/Output for patient_records.txt file
+     Tested:
+	- Application on Phone, with new back end classes to make sure front end is properly functioning, fixed some bugs
+
+*******************************************************
+11.19.2014: Planning Meeting: 15 minutes 
+******************************************************* 
+
+Project Status Update:
+	- app without databases implemented completed
+	- currently switching to database system
+
+Tasks:
+
+Huy (Kevin) To:	
+	Change for database implementation:
+		- Patient.java (Health card number will be changed to a 6 character length String; remove MedicalRecord variable) 
+		- UserManager.java 
+			- Remove userNamesToPasswords and userNamesToRoles hashmaps.
+			- loadUserInformation method loads info from passwords.txt into DB
+			- getUser() validates login, calls TriageDBAdapter.fetchUser() and constructs and returns role if validation successful, or an empty cursor if not
+	- help implement TriageDBAdapter.java
+
+Sho Hao (Lenox) Ho:
+	Change for database implementation:
+		- ERAdmin.java (Health card number will be changed to a 6 character length String; Will use methods from TriageDBAdapter class)
+	- help implement TriageDBAdapter.java
+
+Wei Li:
+	Change for database implementation:
+		- VitalSigns (The constructor, should be changed to have types int, int, float, float, long respectively)
+
+Ekaterina (Katie) Datsenko:
+	Change for database implementation:
+		- ERVisit.java (must have variable "long id" to remember its place in the DB for updating it later)
+		- Change database classes and GUI's health card number to 6 character String
+	- Implement GUI activities (Open/close database connection, pass TraigeDBAdapter variable as parameter to ERAdmin method)
+	- help implement TriageDBAdapter.java
+
+*******************************************************
+11.24.2014: Planning Meeting: 10 minutes 
+******************************************************* 
+
+Project Status Update:
+	- first app build with databases completed
+	- currently debugging, testing, commenting code
+
+Tasks:
+
+Huy (Kevin) To:	
+	- final testing
+	- Write missing implementation comments for Patient, Usermanager, Nurse, and Physician
+	- check over all docstrings for correctness
+
+Sho Hao (Lenox) Ho:
+	- final testing
+	- Write missing implementation comments for ERAdmin
+	- check over all docstrings for correctness
+
+Wei Li:
+	- final testing
+	- check over all docstrings for correctness
+
+Ekaterina (Katie) Datsenko:
+	- finish About page in app
+	- put database table image redone in PIII folder for proof of design work
+	- proofread README and CRC
