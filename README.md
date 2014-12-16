@@ -51,5 +51,5 @@ Group Members:
 --------------------------------------------------------------
 - Katie Datsenko
 - Huy (Kevin) To
-- Sho Hao (Lenox) Ho
+- Sho Hao (Lennox) Ho
 - Wei Li
