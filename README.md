@@ -2,6 +2,7 @@
 About
 ----------------------------------------------------------------------------------------------------------------
 Enhancements:
+
 Implemented a relational database for saving data in the application in real time.
 Implemented rich user interface using fragments (Fragment, ListFragment, DialogFragment, ViewPager), ActionBar navigation with custom UI elements, advanced user input validation with pop-up error messages, and added help resource on the login page.
 
