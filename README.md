@@ -35,6 +35,7 @@ Use the back button at any time to leave the Patient screen and return to the Ma
 --------------------------------------------------------------
 For a patient not signed into the ER: 
 - The "person with a plus sign" icon signs the patient in the ER.
+
 For a patient signed in the ER: 
 - The doctor icon sends the patient to the doctor.
 - The thermometer icon redirects to the "Vital Signs" screen where the user can add patient vitals.
