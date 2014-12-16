@@ -37,7 +37,7 @@ For a patient not signed into the ER:
 - The "person with a plus sign" icon signs the patient in the ER.
 For a patient signed in the ER: 
 - The doctor icon sends the patient to the doctor.
-  - The thermometer icon redirects to the "Vital Signs" screen where the user can add patient vitals.
+- The thermometer icon redirects to the "Vital Signs" screen where the user can add patient vitals.
 
 --------------------------------------------------------------
 1.3.2 Features Unique to Doctor
