@@ -2,6 +2,7 @@
 About
 ----------------------------------------------------------------------------------------------------------------
 Enhancements:
+
 Implemented a relational database for saving data in the application in real time.
 Implemented rich user interface using fragments (Fragment, ListFragment, DialogFragment, ViewPager), ActionBar navigation with custom UI elements, advanced user input validation with pop-up error messages, and added help resource on the login page.
 
@@ -34,9 +35,10 @@ Use the back button at any time to leave the Patient screen and return to the Ma
 --------------------------------------------------------------
 For a patient not signed into the ER: 
 - The "person with a plus sign" icon signs the patient in the ER.
+
 For a patient signed in the ER: 
 - The doctor icon sends the patient to the doctor.
-  - The thermometer icon redirects to the "Vital Signs" screen where the user can add patient vitals.
+- The thermometer icon redirects to the "Vital Signs" screen where the user can add patient vitals.
 
 --------------------------------------------------------------
 1.3.2 Features Unique to Doctor
@@ -49,5 +51,5 @@ Group Members:
 --------------------------------------------------------------
 - Katie Datsenko
 - Huy (Kevin) To
-- Sho Hao (Lenox) Ho
+- Sho Hao (Lennox) Ho
 - Wei Li
